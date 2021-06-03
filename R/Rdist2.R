@@ -37,7 +37,7 @@ rdist<-function(x,p)
     return(y)
   }
 }
-rdistn <- function(x,p,n)
+rdistn <- function(x,p,n) # il faut mettre cette fonction dans un nouveau fichier à l'intérieur du dossier R (Kernane)
 {
   i=1
   y=c(i : n-1,1)
